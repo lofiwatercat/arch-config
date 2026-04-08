@@ -7,6 +7,9 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+
+alias l="lsd -1a"
+
 PS1='[\u@\h \W]\$ '
 
 alias hx='helix'
@@ -15,3 +18,5 @@ source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
 
 export EDITOR="hx"
+
+eval "$(starship init bash)"
